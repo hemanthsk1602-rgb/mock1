@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NexusPay — The future of secure digital payments. Blockchain-powered transactions, AI fraud detection, and seamless global transfers.">
+  <title>NexusPay — Future of Digital Payments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="nav-brand" aria-label="NexusPay home">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="url(#brand-grad)"/>
+          <path d="M8 22V10l8 12V10" stroke="#0A0F1C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M20 10l4 6-4 6" stroke="#0A0F1C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <defs><linearGradient id="brand-grad" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#00C2FF"/><stop offset="1" stop-color="#00E0B8"/></linearGradient></defs>
+        </svg>
+        <span class="nav-brand-text">NexusPay</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu" aria-expanded="false" role="button">
+        <span class="hamburger"></span>
+      </label>
+
+      <div class="nav-links" id="nav-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="security.html">Security</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <a href="contact.html" class="btn btn-primary nav-cta">Get Started</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ====== HERO ====== -->
+    <section class="hero">
+      <div class="container">
+        <span class="section-label">Next-Generation FinTech</span>
+        <h1 class="hero-title">
+          The Future of <span class="text-gradient">Digital Payments</span> Starts Here
+        </h1>
+        <p class="hero-subtitle">
+          Blockchain-verified transactions, AI-driven fraud prevention, and instant global transfers — all in one secure platform trusted by millions worldwide.
+        </p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-primary btn-lg">Open Your Account</a>
+          <a href="solutions.html" class="btn btn-secondary btn-lg">Explore Solutions</a>
+        </div>
+
+        <!-- Dashboard Preview -->
+        <div class="hero-visual fade-in">
+          <div class="hero-dashboard">
+            <div class="dashboard-header">
+              <div class="dashboard-dots">
+                <span class="dashboard-dot"></span>
+                <span class="dashboard-dot"></span>
+                <span class="dashboard-dot"></span>
+              </div>
+              <span class="dashboard-title-bar">NexusPay Dashboard — Live Overview</span>
+              <span></span>
+            </div>
+            <div class="dashboard-stats">
+              <div class="dash-stat">
+                <p class="dash-stat-label">Balance</p>
+                <p class="dash-stat-value">$142,580</p>
+                <p class="dash-stat-change positive">+12.4% this month</p>
+              </div>
+              <div class="dash-stat">
+                <p class="dash-stat-label">Transactions Today</p>
+                <p class="dash-stat-value">2,847</p>
+                <p class="dash-stat-change positive">+8.2% vs yesterday</p>
+              </div>
+              <div class="dash-stat">
+                <p class="dash-stat-label">Fraud Blocked</p>
+                <p class="dash-stat-value">$23.1K</p>
+                <p class="dash-stat-change negative">17 attempts blocked</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== STATS BAR ====== -->
+    <section class="stats-bar" aria-label="Key statistics">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item fade-in">
+            <p class="stat-number" data-count="2500000" data-suffix="+" data-prefix="">0</p>
+            <p class="stat-label">Transactions Processed</p>
+          </div>
+          <div class="stat-item fade-in">
+            <p class="stat-number" data-count="180" data-suffix="+" data-prefix="">0</p>
+            <p class="stat-label">Countries Supported</p>
+          </div>
+          <div class="stat-item fade-in">
+            <p class="stat-number" data-count="850000" data-suffix="+" data-prefix="">0</p>
+            <p class="stat-label">Users Onboarded</p>
+          </div>
+          <div class="stat-item fade-in">
+            <p class="stat-number" data-count="99" data-suffix=".99%" data-prefix="">0</p>
+            <p class="stat-label">Uptime Reliability</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SOLUTIONS OVERVIEW ====== -->
+    <section class="section" id="solutions">
+      <div class="container text-center">
+        <span class="section-label">Our Solutions</span>
+        <h2 class="section-title">Powering the Next Era of Finance</h2>
+        <p class="section-subtitle">From instant peer-to-peer transfers to enterprise-grade payment infrastructure, NexusPay delivers solutions that scale with your ambition.</p>
+      </div>
+      <div class="container">
+        <div class="solutions-grid">
+          <div class="solution-card fade-in">
+            <div class="solution-icon" aria-hidden="true">&#9889;</div>
+            <h3 class="solution-title">Instant Transfers</h3>
+            <p class="solution-text">Send and receive money globally in under 3 seconds with near-zero fees. Our distributed ledger ensures every transaction is verified in real time.</p>
+            <div class="solution-features">
+              <span class="solution-tag">Real-time</span>
+              <span class="solution-tag">150+ Currencies</span>
+              <span class="solution-tag">Low Fees</span>
+            </div>
+          </div>
+          <div class="solution-card fade-in">
+            <div class="solution-icon" aria-hidden="true">&#128737;</div>
+            <h3 class="solution-title">AI Fraud Shield</h3>
+            <p class="solution-text">Machine learning models analyze transaction patterns across 200+ data points to detect and prevent fraud before it impacts your account.</p>
+            <div class="solution-features">
+              <span class="solution-tag">ML-Powered</span>
+              <span class="solution-tag">Real-time Alerts</span>
+              <span class="solution-tag">99.7% Accuracy</span>
+            </div>
+          </div>
+          <div class="solution-card fade-in">
+            <div class="solution-icon" aria-hidden="true">&#127760;</div>
+            <h3 class="solution-title">Global Commerce</h3>
+            <p class="solution-text">Accept payments in any currency from any country. Our multi-currency accounts and smart routing optimize conversion rates automatically.</p>
+            <div class="solution-features">
+              <span class="solution-tag">Multi-Currency</span>
+              <span class="solution-tag">Smart Routing</span>
+              <span class="solution-tag">API Ready</span>
+            </div>
+          </div>
+          <div class="solution-card fade-in">
+            <div class="solution-icon" aria-hidden="true">&#128279;</div>
+            <h3 class="solution-title">Blockchain Settlement</h3>
+            <p class="solution-text">Enterprise-grade blockchain infrastructure for transparent, immutable settlement. Reduce reconciliation time from days to minutes.</p>
+            <div class="solution-features">
+              <span class="solution-tag">Immutable Ledger</span>
+              <span class="solution-tag">Smart Contracts</span>
+              <span class="solution-tag">Auditable</span>
+            </div>
+          </div>
+          <div class="solution-card fade-in">
+            <div class="solution-icon" aria-hidden="true">&#128200;</div>
+            <h3 class="solution-title">Analytics & Insights</h3>
+            <p class="solution-text">Real-time dashboards, predictive analytics, and custom reports give your finance team the visibility to make data-driven decisions.</p>
+            <div class="solution-features">
+              <span class="solution-tag">Real-time Data</span>
+              <span class="solution-tag">Predictive AI</span>
+              <span class="solution-tag">Custom Reports</span>
+            </div>
+          </div>
+          <div class="solution-card fade-in">
+            <div class="solution-icon" aria-hidden="true">&#128272;</div>
+            <h3 class="solution-title">Compliance Engine</h3>
+            <p class="solution-text">Automated KYC/AML screening, regulatory reporting, and audit trails keep you compliant across all jurisdictions without slowing transactions.</p>
+            <div class="solution-features">
+              <span class="solution-tag">KYC/AML</span>
+              <span class="solution-tag">Auto Reporting</span>
+              <span class="solution-tag">Multi-Region</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== PAYMENT CALCULATOR ====== -->
+    <section class="section tool-section" id="calculator">
+      <div class="container text-center">
+        <span class="section-label">Try It Now</span>
+        <h2 class="section-title">Payment Calculator</h2>
+        <p class="section-subtitle">Estimate your transfer costs instantly. Enter an amount, select currencies, and see the converted total with fees included.</p>
+      </div>
+      <div class="container">
+        <div class="tool-card fade-in" id="payment-calc">
+          <h3>Calculate Your Transfer</h3>
+          <div class="form-group">
+            <label class="form-label" for="calc-amount">Amount</label>
+            <input type="number" class="form-input" id="calc-amount" placeholder="1000" min="0" step="0.01" value="1000">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="calc-from">From Currency</label>
+              <select class="form-select" id="calc-from">
+                <option value="USD">USD — US Dollar</option>
+                <option value="EUR">EUR — Euro</option>
+                <option value="GBP">GBP — British Pound</option>
+                <option value="JPY">JPY — Japanese Yen</option>
+                <option value="INR">INR — Indian Rupee</option>
+                <option value="AUD">AUD — Australian Dollar</option>
+                <option value="CAD">CAD — Canadian Dollar</option>
+                <option value="CHF">CHF — Swiss Franc</option>
+                <option value="CNY">CNY — Chinese Yuan</option>
+                <option value="SGD">SGD — Singapore Dollar</option>
+                <option value="AED">AED — UAE Dirham</option>
+                <option value="BRL">BRL — Brazilian Real</option>
+                <option value="KRW">KRW — Korean Won</option>
+                <option value="MXN">MXN — Mexican Peso</option>
+                <option value="ZAR">ZAR — South African Rand</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="calc-to">To Currency</label>
+              <select class="form-select" id="calc-to">
+                <option value="EUR">EUR — Euro</option>
+                <option value="USD">USD — US Dollar</option>
+                <option value="GBP">GBP — British Pound</option>
+                <option value="JPY">JPY — Japanese Yen</option>
+                <option value="INR">INR — Indian Rupee</option>
+                <option value="AUD">AUD — Australian Dollar</option>
+                <option value="CAD">CAD — Canadian Dollar</option>
+                <option value="CHF">CHF — Swiss Franc</option>
+                <option value="CNY">CNY — Chinese Yuan</option>
+                <option value="SGD">SGD — Singapore Dollar</option>
+                <option value="AED">AED — UAE Dirham</option>
+                <option value="BRL">BRL — Brazilian Real</option>
+                <option value="KRW">KRW — Korean Won</option>
+                <option value="MXN">MXN — Mexican Peso</option>
+                <option value="ZAR">ZAR — South African Rand</option>
+              </select>
+            </div>
+          </div>
+          <button class="btn btn-primary" id="calc-btn" style="width:100%">Calculate</button>
+          <div class="result-display">
+            <p class="result-label">Enter details above and click Calculate</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== TRANSACTION SIMULATION ====== -->
+    <section class="section" id="simulation">
+      <div class="container text-center">
+        <span class="section-label">Live Demo</span>
+        <h2 class="section-title">Transaction Simulation</h2>
+        <p class="section-subtitle">See how NexusPay processes payments in real time. Click below to simulate a secure blockchain-verified payment.</p>
+      </div>
+      <div class="container">
+        <div class="tool-card fade-in">
+          <div class="sim-container">
+            <div class="sim-visual" id="sim-icon" aria-hidden="true">&#128179;</div>
+            <p class="sim-status" id="sim-status">Ready to Process</p>
+            <p class="sim-detail" id="sim-detail">Click the button below to simulate a payment transaction.</p>
+            <button class="btn btn-primary btn-lg" id="sim-start">Simulate Payment</button>
+            <div class="sim-steps">
+              <div class="sim-step" aria-label="Step 1">
+                <span class="sim-step-icon">1</span>
+                <span>Initialize secure connection</span>
+              </div>
+              <div class="sim-step" aria-label="Step 2">
+                <span class="sim-step-icon">2</span>
+                <span>Verify identity & credentials</span>
+              </div>
+              <div class="sim-step" aria-label="Step 3">
+                <span class="sim-step-icon">3</span>
+                <span>Run fraud detection scan</span>
+              </div>
+              <div class="sim-step" aria-label="Step 4">
+                <span class="sim-step-icon">4</span>
+                <span>Process blockchain confirmation</span>
+              </div>
+              <div class="sim-step" aria-label="Step 5">
+                <span class="sim-step-icon">5</span>
+                <span>Finalize transfer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== FAQ SECTION ====== -->
+    <section class="section" id="faq">
+      <div class="container text-center">
+        <span class="section-label">FAQ</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Get answers to the most common questions about NexusPay, our services, and how we keep your finances secure.</p>
+      </div>
+      <div class="container">
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How fast are NexusPay transfers?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                Most domestic transfers complete in under 3 seconds. International payments typically settle within 30 seconds, depending on the destination country and currency. Our blockchain-verified settlement layer eliminates the multi-day delays of traditional banking rails.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What currencies does NexusPay support?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                NexusPay currently supports over 150 fiat currencies and 20 major cryptocurrencies. Our smart routing engine automatically selects the optimal conversion path to minimize fees and maximize exchange rates for every transaction.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How does AI fraud detection work?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                Our AI models analyze over 200 data points per transaction in real time — including device fingerprinting, geolocation, behavioral biometrics, and historical patterns. Suspicious activity triggers instant alerts and can automatically freeze transactions, achieving a 99.7% fraud detection accuracy rate.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Is NexusPay compliant with international regulations?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                Yes. NexusPay is fully compliant with PCI DSS Level 1, SOC 2 Type II, GDPR, and PSD2 Strong Customer Authentication requirements. We maintain money transmission licenses in all operating jurisdictions and conduct regular third-party security audits.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What are the transaction fees?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                Domestic transfers are free for personal accounts. International transfers carry a transparent 1.5% fee — significantly lower than the 3-5% charged by traditional banks and legacy payment processors. Enterprise clients receive custom volume-based pricing.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can I integrate NexusPay into my business?</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer" role="region">
+              <div class="faq-answer-inner">
+                Absolutely. NexusPay offers RESTful APIs, SDKs for major platforms (iOS, Android, Web), and pre-built plugins for popular e-commerce platforms. Our developer documentation includes sandbox environments for testing, and our integration team provides dedicated support for enterprise deployments.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CTA SECTION ====== -->
+    <section class="cta-section">
+      <div class="container">
+        <span class="section-label">Get Started Today</span>
+        <h2 class="cta-title">Ready to Transform Your Payments?</h2>
+        <p class="cta-text">Join over 850,000 users and businesses who trust NexusPay for secure, instant, and affordable global transactions.</p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-primary btn-lg">Open Your Account</a>
+          <a href="solutions.html" class="btn btn-secondary btn-lg">View Solutions</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p class="footer-brand-name"><span class="text-gradient">NexusPay</span></p>
+          <p class="footer-brand-text">Pioneering the future of digital payments with blockchain security, AI intelligence, and seamless global reach.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="solutions.html">Instant Transfers</a>
+          <a href="solutions.html">Fraud Detection</a>
+          <a href="solutions.html">Global Commerce</a>
+          <a href="solutions.html">Analytics</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="security.html">Security</a>
+          <a href="contact.html">Contact</a>
+          <a href="#">Careers</a>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <a href="#">Documentation</a>
+          <a href="#">API Reference</a>
+          <a href="#">Blog</a>
+          <a href="#">Status Page</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 NexusPay. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+          <a href="#">Compliance</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
